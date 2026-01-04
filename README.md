@@ -2,6 +2,443 @@
 <html lang="en">
 
 <head>
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display:flex;
+    justify-content: center;
+    gap:  40px;
+    padding:20px 0px  ;
+    background-color:white;
+    color: black;
+    
+}
+#navbar li{
+ list-style: none; 
+}  
+button{
+     padding: 11px 21px;
+    border-radius: 980px;
+    font-size: 17px;
+    font-weight: 600;
+    margin:10px 0;
+}
+#section1{
+    height: 650px;
+    background-image: url("../Images/01.jpeg");
+    display: flex ;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 28px;
+    color: black;
+    gap: 10px;
+    justify-content: start;
+    font-size: larger;
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+#section1 h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+#section1 h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.btn1{
+    background: #0071e3;
+    color: black ;
+    padding: 11px 21px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+} 
+
+#section2{
+     height: 650px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../Images/02.jpeg);
+    display: flex ;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 28px;
+    color: black;
+    gap: 10px;
+    justify-content: start;
+    font-size: larger;
+    padding: 50px;
+    align-content: center;
+    background-position: center; 
+}
+
+#section2 h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+#section2 h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn1{
+    background: #0071e3;
+    color: black ;
+    padding: 11px 21px;
+    border-radius: 50px;
+    font-size: 17px;
+    display: flex;
+}
+.btn2{
+    background-color: transparent;
+    color: #0071e3;
+     border: 1px solid #0071e3;
+     border-color: #0071e3 ;
+    
+
+}
+.btngroup{
+display: flex;
+justify-content: center;
+gap: 20px;
+ font-size: 17px;
+font-weight: 400;
+
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#section3{
+    height: 650px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image: url(../Images/03.jpeg);
+    display: flex ;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 28px;
+    color: black;
+    gap: 10px;
+    justify-content: start;
+    font-size: larger;
+    padding: 50px;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 245, 247); 
+}
+#section3 h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+#section3 h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+#section4{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    gap: 10px;
+    background-position: center; 
+    background-size: cover;
+
+}
+#section4left{
+    width: 50%;
+    background-image: url("../Images/ipad\ air.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+#section4right{
+    width: 50%;
+    background-image: url("../Images/macbook.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    gap: 20px;
+    padding:  0 20px;
+}
+
+.btn1{
+    background: #0071e3;
+    color: black ;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+}
+.btn2{
+    gap: 10px;
+    background-color: transparent;
+    color: #0071e3;
+     border: 1px solid #0071e3;
+     border-color: #0071e3 ;    
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#section4 h1{
+    font-size: 48px;
+    font-weight: 600; 
+    /* gap: 10px; */
+    
+}
+#section4 h3{
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#section5{
+     display: flex;
+    width: 100%;
+    height: 650px;
+    gap: 10px;
+    background-position: center; 
+    background-size: cover;
+    padding: 10px;
+    /* margin-top: 10px; */
+  
+}
+#section5left{
+    width: 50%;
+    background-image: url("../Images/pick\ ipad.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    margin: 10px;
+    gap: 20px;
+}
+#section5right{
+    width: 50%;
+    background-image: url("../Images/07.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-position: center;
+    gap: 20px;
+}
+
+.btn1{
+    background: #0071e3;
+    color: black ;
+    padding: 11px 21px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+}
+.btn2{
+    gap: 10px;
+    background-color: transparent;
+    color: #0071e3;
+     border: 1px solid #0071e3; 
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#section5 h1{
+    font-size: 48px;
+    font-weight: 600;
+     gap: 10px;
+}
+#section5 h3{
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+#section6{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    gap: 10px;
+    background-position: center; 
+    background-size: cover;
+;
+
+}
+#section6left{
+    width: 50%;
+   /* height: 90vh; */
+   align-items: center;
+   justify-content: center;
+    background-image: url("../Images/Trade\ In\ Work.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center bottom;
+}
+#section6right{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/Trade\ in\ Work\ 2.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+}
+
+.btn1{
+    background: #0071e3;
+    color: black ;
+    padding: 11px 21px;
+    border-radius: 50px;
+    font-size: 17px;
+    display: flex;
+    gap: 10px;
+}
+.btn2{
+    gap: 10px;
+    background-color: transparent;
+    color: #0071e3;
+     border: 1px solid #0071e3;;    
+}
+.btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#section6 h1{
+    font-size: 48px;
+    font-weight: 600;
+     gap: 10px;
+}
+#section6 h3{
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#footer {
+    background-color: #333;
+    width: 100%;
+    height: 450px;
+    color: #b1b1b3;
+    border-bottom: 1px solid white;
+}
+.apple-footer {
+    background-color: #161617;
+    color: #f5f5f7;
+    font-family: "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    padding: 40px 0;
+    font-size: 12px;
+}
+
+.footer-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 22px;
+}
+
+/* Legal text styles */
+.footer-notes {
+    color: #86868b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer-notes hr {
+    border: 0;
+    border-top: 1px solid #424245;
+    margin: 20px 0;
+}
+
+/* Grid Layout for Columns */
+.footer-links-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col h3 {
+    color: #f5f5f7;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: #86868b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #f5f5f7;
+    text-decoration: underline;
+}
+
+/* Bottom Legal Section */
+.footer-bottom {
+    margin-top: 35px;
+    color: #86868b;
+}
+
+.footer-bottom a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.legal-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.legal-links li {
+    padding: 0 10px;
+    border-right: 1px solid #424245;
+}
+
+.legal-links li:last-child {
+    border-right: none;
+}
+
+.legal-links a {
+    color: #86868b;
+    text-decoration: none;
+}
+
+.country {
+    margin-left: auto;
+}
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Apple clone</title>
